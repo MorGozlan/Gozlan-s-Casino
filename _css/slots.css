@@ -1,0 +1,202 @@
+body {
+    background-image: url(../_images/reka1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: arial;
+}
+.all_site{
+    max-width:900px;
+    background: rgba(255, 255, 255, 0.4);
+    margin:0 auto;
+    padding: 8px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.h2c{
+     display: inline;
+}
+
+#wrap {
+  
+  background-image: url(../_images/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+ margin:0 auto;
+  max-width: 900px;
+  height: 300px;
+  overflow: hidden;
+  
+}
+
+#game {
+  max-width: 900px;
+  padding-top: 70px;
+  text-align: center;
+}
+
+
+button {
+  font-size: 7pt;
+}
+
+#info {
+  max-width: 900px;
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  width: 100px;
+  text-align: left;
+  font-size: 9pt;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#credits {
+  width:900px;
+  padding-top: 50px;
+  padding-left: 200px;
+  font-size: 10pt;
+}
+
+#log {
+    
+  max-width:900px;
+  text-align: center;
+  color: #666666;
+}
+
+#attribution {
+  text-align: center;
+  max-width: 900px;
+  font-size: 7pt;
+  color: black;
+  font-family: arial, helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+#attribution a {
+  color: black;
+}
+
+
+header{
+    width:100%;
+    height:60px;
+    background: rgba(255, 255, 255, 0.4);
+    margin:0 auto;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+a{
+    list-style: none;
+     text-decoration: none;
+    color: black;
+}
+nav .burger{
+    display: none;
+}
+nav ul{
+    list-style: none;
+    z-index:98;
+ 
+}
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: central;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #CCC; 
+    border-left: 1px solid #CCC; 
+    font-size:x-large;
+    font-style: italic;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: whitesmoke;
+}
+.h2c{
+     display: inline;
+}
+footer{
+    background: rgba(255, 255, 255, 0.4);
+    width:100%;
+    margin:0 auto;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: central;    
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    body {
+
+    }
+
+    nav .burger{
+        display:block;
+        float: right;
+    }
+    nav ul{
+        display:none;
+        position: absolute;
+        backgroun-color: gray;
+        top:60px;
+        width: 50%;
+        background: rgba(255, 255, 255, 0.4);
+    }
+    nav ul li{
+        display: block;
+        text-align:center;
+        
+    }
+    .all_site{
+        width:90%;
+
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+
+    }
+    .all_site{
+        width:90%;
+
+    }
+
+    nav .burger{
+        display:block;
+    }
+    nav ul{
+        display:none;
+        position: absolute;
+        backgroun-color: gray;
+        top:60px;
+        width: 50%;
+        background: rgba(255, 255, 255, 0.4);
+    }
+    nav ul li{
+        display: block;
+        text-align:center;
+        
+    }
+}
+
