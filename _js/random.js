@@ -33,6 +33,7 @@ function onRollClick ()
 
     if(nikod >= 20)
     {
+        alert("You Win!");
         id_mor.innerHTML = "You Win!";
         id_mor.style.color = "green";
     }
